@@ -30,7 +30,7 @@ Modern image-based deblurring methods usually show degenerate performance in low
 ## About the data used for training the network
 * Since the dataset used for training the network is too large, we only provide the [source files](https://drive.google.com/drive/folders/1kHUmemq41GWou8231wEUhJ2Eiq2lJdWA?usp=share_link). Please make the training dataset on your own using our scripts as follows:
   * Run `mkdir -p RealBlurSourceFiles data/train` first
-  * Please put the downloaded files (all `*.png` files, which are extracted from the [RealBlur dataset](http://cg.postech.ac.kr/research/realblur/) and linearized)
+  * Please put the downloaded files (all `*.png` files, which are extracted from the [RealBlur dataset](http://cg.postech.ac.kr/research/realblur/) and linearized) into the `RealBlurSourceFiles` folder
   * Run `python scripts/make_dataset.py` or `python scripts/make_dataset_multiprocessing.py`
     * `make_dataset_multiprocessing.py` could be much faster than `make_dataset.py` if you have multiple CPU cores
     * This step could be quite long (usually few days)
