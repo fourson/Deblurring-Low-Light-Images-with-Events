@@ -26,6 +26,7 @@ Modern image-based deblurring methods usually show degenerate performance in low
 * Run `mkdir data` first
 * Please put the downloaded folders (`test`, `real`, and `hybrid`) into the `data` folder
 * Details about the evaluation can be found in the paper
+* Note that all deblurring results of hybrid camera data shown in the paper were non-linearized using the script `gamma.py` (provided in the above data link) for better visualization
 
 ## About the data used for training the network
 * Since the dataset used for training the network is too large, we only provide the [source files](https://drive.google.com/drive/folders/1kHUmemq41GWou8231wEUhJ2Eiq2lJdWA?usp=share_link). Please make the training dataset on your own using our scripts as follows:
