@@ -3,7 +3,7 @@
 By [Chu Zhou](https://fourson.github.io/), Minggui Teng, Jin Han, Jinxiu Liang, Chao Xu, Gang Cao, [Boxin Shi](http://ci.idm.pku.edu.cn/)
 ![Network](Network.png)
 
-[PDF]() | [SUPP]()
+[PDF](https://link.springer.com/article/10.1007/s11263-023-01754-5) | [SUPP](https://ci.idm.pku.edu.cn/Zhou_IJCV23.pdf)
 
 ## Abstract
 Modern image-based deblurring methods usually show degenerate performance in low-light conditions since the images often contain most of the poorly visible dark regions and a few saturated bright regions, making the amount of effective features that can be extracted for deblurring limited. In contrast, event cameras can trigger events with a very high dynamic range and low latency, which hardly suffer from saturation and naturally encode dense temporal information about motion. However, in low-light conditions existing event-based deblurring methods would become less robust since the events triggered in dark regions are often severely contaminated by noise, leading to inaccurate reconstruction of the corresponding intensity values. Besides, since they directly adopt the event-based double integral model to perform pixel-wise reconstruction, they can only handle low-resolution grayscale active pixel sensor images provided by the DAVIS camera, which cannot meet the requirement of daily photography. In this paper, to apply events to deblurring low-light images robustly, we propose a unified two-stage framework along with a motion-aware neural network tailored to it, reconstructing the sharp image under the guidance of high-fidelity motion clues extracted from events. Besides, we build an RGB-DAVIS hybrid camera system to demonstrate that our method has the ability to deblur high-resolution RGB images due to the natural advantages of our two-stage framework. Experimental results show our method achieves state-of-the-art performance on both synthetic and real-world images.
@@ -71,5 +71,11 @@ Note that all config files (`config/*.json`) and the learning rate schedule func
 ## Citation
 If you find this work helpful to your research, please cite:
 ```
-coming soon
+@article{zhou2023deblurring,
+  title={Deblurring Low-Light Images with Events},
+  author={Zhou, Chu and Teng, Minggui and Han, Jin and Liang, Jinxiu and Xu, Chao and Cao, Gang and Shi, Boxin},
+  journal={International Journal of Computer Vision},
+  pages={1--15},
+  year={2023}
+}
 ```
