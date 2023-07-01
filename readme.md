@@ -75,7 +75,9 @@ If you find this work helpful to your research, please cite:
   title={Deblurring Low-Light Images with Events},
   author={Zhou, Chu and Teng, Minggui and Han, Jin and Liang, Jinxiu and Xu, Chao and Cao, Gang and Shi, Boxin},
   journal={International Journal of Computer Vision},
-  pages={1--15},
+  volume={131},
+  number={5},
+  pages={1284--1298},
   year={2023}
 }
 ```
